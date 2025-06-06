@@ -6,7 +6,20 @@
     "background": {
         "service_worker": "background.js"
     },
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "132": "images/icon-128.png"
+    },
     "action": {
-        "default_icon": "popup.html"
-    }
+        "default_popup": "popup/popup.html",
+        "default_icons": {
+            "16": "images/icon-16.png",
+            "32": "images/icon-32.png",
+            "132": "images/icon-128.png"
+        }
+    },
+    "permissions": [
+        "activeTab"
+    ]
 }
