@@ -3,9 +3,6 @@
     "name": "Focus quote",
     "description": "Display a quote every time twitter tab is opened, to stop me from doomcrolling and motivate me.",
     "version": "1.0",
-    "host_permissions": [
-        "https://*/*"
-    ],
     "background": {
         "service_worker": "background.js"
     },
